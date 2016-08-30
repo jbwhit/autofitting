@@ -10,7 +10,7 @@ pymc
 astropy
 notebook
 ipywidgets
-jupyter_nbextensions_configurator
+pip
 pyparsing
 mkl
 matplotlib
@@ -20,8 +20,7 @@ pandas
 scikit-learn
 scipy
 numpy
-statsmodels
-tqdm'
+statsmodels'
 
 conda create --name astropy2 python=2 $packages
 
