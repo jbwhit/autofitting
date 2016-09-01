@@ -1,31 +1,39 @@
 #!/bin/bash
+
+Assuming Mac
+
+Install homebrew
+
 cd ~/Downloads
 wget https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
 bash Miniconda3-latest-MacOSX-x86_64.sh
 
 source ~/.bashrc
 
-packages='jupyter
-pymc
-astropy
-notebook
+conda config --add channels conda-forge
+
+packages='astropy
 ipywidgets
-pip
-pyparsing
-mkl
+jupyter
+jupyter_contrib_nbextensions
+jupyter_nbextensions_configurator
 matplotlib
-seaborn
+mkl
 mpld3
+notebook
+numpy
 pandas
+pip
+pymc
+pyparsing
 scikit-learn
 scipy
-numpy
-statsmodels'
+seaborn
+statsmodels
+'
 
-conda create --name astropy2 python=2 $packages
+conda create --name py2 python=2 $packages
+conda create --name py3 python=3 $packages
 
-source activate astropy2
+source activate py2
 
-pip install barak
-
-# source deactivate
