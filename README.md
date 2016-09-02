@@ -2,6 +2,5 @@
 
 # autofitting
 
-Fit voigt profiles with MCMC using [PyMC2](https://pymc-devs.github.io/pymc/) + [emcee](http://dan.iel.fm/emcee/current/.
-
+Fit voigt profiles with MCMC using [PyMC2](https://pymc-devs.github.io/pymc/) + [emcee](http://dan.iel.fm/emcee/current/).
 
