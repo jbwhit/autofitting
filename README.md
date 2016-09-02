@@ -4,3 +4,6 @@
 
 Fit voigt profiles with MCMC using [PyMC2](https://pymc-devs.github.io/pymc/) + [emcee](http://dan.iel.fm/emcee/current/).
 
+Click Notebooks/2016-09-02-emcee+pymc2-results.ipynb
+
+https://github.com/jbwhit/autofitting/blob/master/notebooks/2016-09-02-emcee%2Bpymc2-results.ipynb
